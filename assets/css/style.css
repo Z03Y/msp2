@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
 
 
 /* Header Styling */
+
+/*Hero Images*/
 
 #home-img {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -28,7 +30,8 @@
     position: relative;
 }
   
-/* Place text in the middle of the image */
+/* Hero Text */
+
 .hero-text {
     font-family: 'Pacifico';
     text-align: center;
@@ -38,4 +41,11 @@
     transform: translate(-50%, -50%);
     color: white;
     text-shadow: 0 0 3px #F2E7E7;
+}
+
+/* Nav Bar Styling*/
+
+.navbar {
+    font-family: 'Delius';
+    font-size: 140%;
 }
